@@ -4,7 +4,9 @@
 >
 > TIP：更多内容详见[数据可视化专题](https://github.com/MrEnvision/data-vision)！！！
 
+## 0. 预览
 
+<img src="./noteImg/thumb.png" style="zoom:50%;" />
 
 ## 1. rem适配
 

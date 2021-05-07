@@ -5,7 +5,7 @@
     </div>
     <div class="container" v-else>
       <div class="header-wrapper">
-        <div class="title">慕课外卖数据大屏</div>
+        <div class="title">外卖数据大屏</div>
         <div class="sub-title">移动报表</div>
         <div class="date">{{date}}</div>
       </div>
