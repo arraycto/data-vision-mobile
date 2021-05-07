@@ -10,6 +10,12 @@
         <div class="date">{{date}}</div>
       </div>
       <div class="content-wrapper">
+        <SalesBar :data="data.salesBar" />
+        <SalesLine :data="data.saleLine" />
+        <SalesPie :data="data.salePie" />
+        <SalesRadar :data="data.salesRadar" />
+        <SalesSun :data="data.salesSun" />
+        <SalesMap />
       </div>
     </div>
   </div>
@@ -17,9 +23,23 @@
 
 <script>
 import { getData } from '@/apis'
+import SalesBar from '@/components/SalesBar'
+import SalesLine from '@/components/SalesLine'
+import SalesPie from '@/components/SalesPie'
+import SalesRadar from '@/components/SalesRadar'
+import SalesSun from '@/components/SalesSun'
+import SalesMap from '@/components/SalesMap'
 
 export default {
   name: 'Home',
+  components: {
+    SalesBar,
+    SalesLine,
+    SalesPie,
+    SalesRadar,
+    SalesSun,
+    SalesMap
+  },
   data () {
     return {
       data: null,
@@ -69,6 +89,7 @@ export default {
 
   .header-wrapper {
     width: 100%;
+    height: 300px;
     padding: 50px 24px 24px;
     box-sizing: border-box;
     color: #fff;
@@ -92,6 +113,8 @@ export default {
   .content-wrapper {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0 40px 0;
   }
 }
 </style>

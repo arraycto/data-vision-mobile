@@ -10,6 +10,11 @@ Vue.config.productionTip = false
 Vue.prototype.$echarts = ECharts
 Vue.component('vue-echart', VueECharts)
 
+Vue.prototype.$initMap = window.initMap
+Vue.prototype.$mapv = window.mapv
+Vue.prototype.$purpleStyle = window.purpleStyle
+Vue.prototype.$mapvgl = window.mapvgl
+
 new Vue({
   router,
   store,
