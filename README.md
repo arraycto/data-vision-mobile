@@ -4,6 +4,8 @@
 >
 > TIP：更多内容详见[数据可视化专题](https://github.com/MrEnvision/data-vision)！！！
 
+
+
 ## 0. 预览
 
 ```shell
@@ -14,6 +16,8 @@ $ npm run serve
 注意，如果接口请求失败，可使用 `./src/apis/data` 中的静态数据。
 
 <img src="./noteImg/thumb.png" style="zoom:50%;" />
+
+
 
 ## 1. rem适配
 
